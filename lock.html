@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lock</title>
+    <style>
+        .body{
+            height:170px;
+            width:230px;
+            background-color:black;
+            margin: auto;
+            position: relative;
+            top:40vh;
+            border-radius: 0% 0% 40% 40%;
+            border: 20px solid grey; 
+            z-index: +1;           
+        }
+        .handle1{
+            height:160px;
+            width:180px;
+           bottom: 27.5vh;
+          left:5px;
+            position: absolute;
+            border-radius: 50% 50% 0% 0% ;
+            
+            border: 20px solid grey;   
+        }
+        .handle2{
+            height:138px;
+            width:113px;
+            bottom: 27.5vh;    
+            left:49px;      
+            position: absolute;
+            border-radius: 45% 45% 0% 0% ;            
+            border: 10px solid grey;
+        }
+        .key{
+            height:60px;
+            width:40px;
+            position: absolute;
+            left:94px;
+            top:60px;
+            border-radius: 6% 6% 100% 100% ; 
+            background-color: grey;
+        }
+    </style>
+</head>
+<body style="background-color: black;">
+    <div class="body">
+        <div class="handle1"></div>
+        <div class="handle2"></div>
+        <div class="key"></div>
+    </div>
+    
+</body>
+</html>

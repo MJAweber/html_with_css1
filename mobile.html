@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile</title>
+    <style>
+        *{margin: 0; padding: 0; box-sizing: border-box;}
+        .clr{clear: both;}
+        .fl{float: left;}
+        .fr{float: right;}
+        .cover{
+            height:550px;
+            width:300px;
+            margin: auto;
+            /* background-color:grey; */
+            background-image: url(LOGO/itsOK.jpg);
+            background-size: 300px 500px;
+            border-radius:10% 10%;
+            position:relative;
+            top: 3vh;
+        }
+      
+        .box1{
+            height: 50px;
+            width:300px;
+            background-color: red;
+            position: absolute;
+        }
+        .camera1{
+            height: 14px;
+            width:14px;
+            border-radius: 50%;
+            left:160px;
+            top:5px;
+            position: absolute;
+            background-color: blueviolet;
+        }
+        .camera_side{
+            height: 10px;
+            width:50px;
+            background-color:grey;
+            position: absolute;
+            left:100px;
+            top:1vh;
+        }
+        .control_section{
+            background-color: red;
+        }
+        .menu{
+            height: 14px;
+            width:14px;            
+            left:50px;
+            bottom:5px;
+            position: absolute;
+            /* z-index: +1; */
+            
+        }
+        .home{
+            height: 14px;
+            width:14px;            
+            left:140px;
+            bottom:5px;
+            position: absolute;
+            
+        }
+        .back{
+            height: 14px;
+            width:14px;            
+            left:220px;
+            bottom:5px;
+            position: absolute;
+            
+        }
+        .vol1{
+            height:50px;
+            width:10px;
+            background-color: grey;
+            position: absolute;
+            left:480px;
+            top:20vh;
+            
+        }
+        .vol2{
+            height:50px;
+            width:10px;
+            background-color: grey;
+            position: absolute;
+            right:480px;
+            top:20vh;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="vol1" style="top:30vh;"></div>
+    <div class="vol1"></div>
+    <div class="vol2" style="top:26vh;"></div>
+    
+    <div class="cover">
+       <div class="camera1"></div>
+       <div class="fl"><img src="LOGO/net4G.jpg" width="40px" height="20px" alt=""></div>
+       
+       <div class="fl" style="left: 30px;"><img src="LOGO/net4G.jpg" width="40px" height="20px" alt=""></div>
+           
+            <div class="fr" style="left: 30px;"><img src="LOGO/battery.jpg" width="40px" height="20px" alt=""></div>   
+            <div class="fr" style="left: 30px;"><img src="LOGO/lte.jpg" width="40px" height="20px" alt=""></div>
+            <div class="camera_side"></div>
+            <!--  footer section -->
+            <div class=" menu fr"><img src="LOGO/menu1.jpg"  width="40px" height="20px" alt=""></div>
+            <div  class="home fl"><img src="LOGO/home.jpg"  width="40px" height="20px" alt=""></div>
+            <div  class="back fr"><img src="LOGO/goBack.jpg"  width="40px" height="20px" alt=""></div>
+        </div>
+    </div>
+</body>
+</html>

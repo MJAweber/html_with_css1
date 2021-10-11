@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>circle1</title>
+    <style>
+        .circle_H{
+            height: 530px;
+            width:400px;
+            background-color: rgb(181, 231, 240);
+            position: relative;
+            top:0vh;
+            left:34%;
+            border-radius: 50%;
+            z-index: +1;
+            border: 18px solid whitesmoke;
+        }
+        .circle_W{
+            height: 450px;
+            width:570px;
+            background-color: rgb(74, 77, 75);
+            position:absolute;
+            top:10vh;
+            left:28.8%;
+            border-radius: 50%;
+        }
+        .field1{
+            height: 40px;
+            position: absolute;
+            top:35vh;
+            width:300px;
+            left:47px;
+            background-color: rgb(181, 231, 240);
+        }
+        .field2{
+            height: 40px;
+            position: absolute;
+            top:45vh;
+            width:300px;
+            left:47px;
+            background-color: rgb(181, 231, 240);
+        }
+         .button{
+            height: 30px;
+            position: absolute;
+            top:58vh;
+            width:100px;
+            left:150px;
+         } 
+         .circle{
+            height:80px;
+            width:80px;
+            border-radius: 50%;
+            background-color: grey;
+            position: absolute; 
+        bottom:73vh;
+            left:35%;
+            z-index: 1;
+            border: 15px solid whitesmoke;
+        }
+        .down_shape{
+            height:80px;
+            width: 150px;
+            background-color:grey;
+            position: absolute;
+            top:9vh; 
+            left:27.4%;
+            border-radius:20% 20% 50% 50%;
+            border:10px solid whitesmoke
+           
+        }
+
+        
+        
+    </style>
+</head>
+<body style="background-color: whitesmoke">
+    <div class="circle_H">
+        <div class="circle"></div>
+        <div class="down_shape"></div>
+        <p ><input  class="field1"type="text" placeholder="Enter username" required></p>
+        <p ><input  class="field2"type="text" placeholder="Enter password" required></p>
+        <button class="button">Sign in</button>
+    </div>
+    <div class="circle_W"></div>
+   
+</body>
+</html>
